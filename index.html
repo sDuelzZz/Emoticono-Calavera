@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./dist/output.css">
+    <script src="script_3.js"></script>
 </head>
 
 <body class="bg-gray-800">
 
-    <header class="bg-gray-700 h-16 flex justify-between p-2">
-        <section class="border-2 solid border-sky-400 w-16"></section>
-        <section class="border-2 solid border-sky-400 w-64 flex justify-between">
+    <header class="bg-gray-700 h-28 flex justify-between p-2 border-b border-gray-500">
+        <section
+            class="rounded-2xl w-20 shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] ml-8 flex items-center justify-center border border-gray-500">
+            <img src="img/mago.png" alt="" class="w-16 h-16">
+        </section>
+        <section class="border-2 solid border-sky-400 w-64 flex justify-between ">
             <div class="border-2 solid border-amber-400 w-20 m-2"></div>
             <div class="border-2 solid border-amber-400 w-20 m-2"></div>
             <div class="border-2 solid border-amber-400 w-20 m-2"></div>
@@ -21,25 +25,48 @@
 
     <main>
 
-        <div class="text-white m-8 text-4xl">
-            <h1>LOREM LOREM LOREM</h1>
+        <div class="text-white m-8 text-4xl font-bold">
+            <h1>Old dirty bastard </h1>
         </div>
 
-        <section class="border-2 solid border-gray-500 rounded-lg flex justify-between h-192 m-8 shadow-[0px_0px_16px_2px_rgba(117,117,117,1)]">
+        <section
+            class="flex flex-col md:flex-row rounded-lg justify-between h-192 m-8 shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] bg-gray-700">
 
-            <section class="flex flex-row m-4 border-2 solid border-green-400">
+            <section class="flex flex-col md:flex-row m-4 border solid border-green-400">
 
                 <!-- CARTA PERSONAJE -->
-                <section class="border-2 border-dotted border-amber-300 rounded-2xl h-160 w-80 m-8">
+                <section
+                    class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-2xl h-160 w-80 m-4 flex flex-col gap-4 items-center p-4 bg-gray-800">
 
-                    <section>
-                        
+                    <h1 class="text-white text-2xl">Default OLD DIRTY</h1>
+
+                    <img src="img/ugly bastard.jpg" alt="" class="w-68 bg-cover rounded-4xl">
+
+                    <div class="h-8 w-80 border-t border-b border-gray-600 bg-gray-700 text-white text-center">
+                        <h1>Information</h1>
+                    </div>
+
+
+                    <section class="flex flex-row">
+                        <div class="text-white w-45 pl-4">
+                            <p>Gender</p>
+                            <p>Age</p>
+                            <p>Relatives</p>
+                        </div>
+
+                        <div class="text-white w-35">
+                            <p>Male</p>
+                            <p>+1000</p>
+                            <p><a href="" class="underline">Old fart</a></p>
+                            <p><a href="" class="underline">Blue balls</a></p>
+                            <p><a href="" class="underline">Ben dover</a></p>
+                        </div>
 
                     </section>
 
                 </section>
 
-                <section class=" border-2 border-dotted border-white rounded-2xl text-white m-8">
+                <section class="rounded-2xl text-white m-8 shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] bg-gray-800">
 
                     <div class="p-8">
                         <h1 class="text-xl mb-4 font-bold">LOREM LOREM</h1>
@@ -51,25 +78,27 @@
 
                 </section>
 
+                <aside class="flex flex-col justify-center items-center border-2 solid border-red-400 m-4 md:w-64">
+
+                    <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-4 w-48 h-28"></div>
+                    <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-4 w-48 h-28"></div>
+                    <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-4 w-48 h-28"></div>
+                    <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-4 w-48 h-28"></div>
+                    <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-4 w-48 h-28"></div>
+
+
+                </aside>
+
             </section>
-
-            <aside class="border-2 solid border-green-400 m-4 w-64 flex flex-col ">
-
-                <div class="border-2 solid border-white m-4 w-48 h-28"></div>
-                <div class="border-2 solid border-white m-4 w-48 h-28"></div>
-                <div class="border-2 solid border-white m-4 w-48 h-28"></div>
-                <div class="border-2 solid border-white m-4 w-48 h-28"></div>
-                <div class="border-2 solid border-white m-4 w-48 h-28"></div>
-
-            </aside>
 
 
         </section>
 
+        <section class="h-64 bg-gray-700 m-8 rounded-2xl"></section>
 
     </main>
 
-    <footer></footer>
+    <footer class="h-64 bg-black"></footer>
 
 </body>
 
