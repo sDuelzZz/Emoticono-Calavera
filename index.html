@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./dist/output.css">
-    <script src="script_3.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body class="bg-gray-800">
@@ -30,24 +30,24 @@
         </div>
 
         <section
-            class="flex flex-col lg:flex-row rounded-lg justify-between shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] bg-gray-700 border border-amber-400">
+            class="flex flex-col xl:flex-row rounded-lg justify-between shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] bg-gray-700 border border-amber-400">
 
             <section class="flex flex-col sm:flex-row m-2 border solid border-green-400 min-h-16">
 
                 <!-- CARTA PERSONAJE -->
                 <section
-                    class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-2xl h-196*2 m-4 flex flex-col gap-4 items-center p-4 bg-gray-800">
+                    class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-2xl h-196*2 m-4 flex flex-col gap-4 items-center p-2 bg-gray-800">
 
                     <h1 class="text-white text-2xl">Default OLD DIRTY</h1>
 
-                    <img src="img/ugly bastard.jpg" alt="" class="w-96 bg-cover rounded-4xl">
+                    <img src="img/golden-boy.jfif" alt="" class="w-96 bg-cover rounded-4xl md:w-[80%]">
 
                     <div class="h-8 w-full border-t border-b border-gray-600 bg-gray-700 text-white text-center">
                         <h1>Information</h1>
                     </div>
 
-
-                    <section class="flex flex-row gap-18">
+                    <!-- AQUI LO MEJOR SERA USAR UN GRID-->
+                    <!-- <section class="flex flex-row gap-18">
 
                         <div class="text-white">
                             <p>Gender</p>
@@ -63,7 +63,31 @@
                             <p><a href="" class="underline">Ben dover</a></p>
                         </div>
 
+                    </section> -->
+
+
+
+                    <section class="grid grid-cols-2 gap-4 text-white gap-x-8">
+
+
+                        <div>Gender</div>
+                        <div>Male</div>
+
+                        <div>Age</div>
+                        <div>1000+</div>
+
+                        <span>Relatives</span> <!-- solo quiero diferenciarlo de los demas-->
+                        <div class="flex flex-col">
+                            <p>Old geezer</p>
+                            <p>Blue balls</p>
+                            <p>Ben dover</p>
+                        </div>
+
+
                     </section>
+
+
+
 
                 </section>
 
@@ -82,13 +106,21 @@
 
             </section>
 
-            <aside class="flex flex-col justify-center items-center border-2 solid border-red-400 m-4">
+            <aside
+                class="flex flex-col justify-center items-center border-2 solid border-red-400 m-2 sm:flex-row xl:flex-col">
 
-                <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-4 w-72 h-28 md:w-48"></div>
-                <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-4 w-72 h-28 md:w-48"></div>
-                <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-4 w-72 h-28 md:w-48"></div>
-                <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-4 w-72 h-28 md:w-48"></div>
-                <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-4 w-72 h-28 md:w-48"></div>
+                <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-2 w-72 h-28 md:w-48 overflow-hidden">
+                    <img src="./img/chad-roshi.jpg" alt="" class="h-fit w-full bg-cover">
+                </div>
+                <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-2 w-72 h-28 md:w-48 overflow-hidden">
+                    <img src="./img/frieren.webp" alt="" class="h-fit w-full bg-cover">
+                </div>
+                <div
+                    class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-2 w-72 h-28 md:w-48 overflow-hidden relative">
+                    <img src="./img/golden-boy-lil-card.jfif" alt="" class="h-fit w-full bg-cover absolute -top-5">
+                </div>
+                <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-2 w-72 h-28 md:w-48"></div>
+                <div class="shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] rounded-xl m-2 w-72 h-28 md:w-48"></div>
 
 
             </aside>
@@ -96,7 +128,46 @@
 
         </section>
 
-        <section class="h-64 bg-gray-700 m-8 rounded-2xl"></section>
+        <section class="flex flex-col h-64 bg-gray-700 m-2 rounded-2xl overflow-hidden gap-4 sm:gap-0">
+
+
+            <div class="flex">
+                <div class="w-20 h-20 overflow-hidden border border-black rounded-xl sm:ml-8 sm:mt-8 flex">
+                    <img src="./img/gohan-glasses.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="w-full h-fit bg-gray-400 sm:mt-8 sm:mr-8 ">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam obcaecati animi iusto, magnam
+                        excepturi eius voluptatibus praesentium repellendus ullam, labore optio repudiandae quos
+                        delectus
+                        eaque natus ab. Eos, rem eveniet.</p>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-20 h-20 overflow-hidden border border-black rounded-xl sm:ml-8 sm:mt-8 flex">
+                    <img src="./img/gohan-glasses.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="w-full h-fit bg-gray-400 sm:mt-8 sm:mr-8 ">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam obcaecati animi iusto, magnam
+                        excepturi eius voluptatibus praesentium repellendus ullam, labore optio repudiandae quos
+                        delectus
+                        eaque natus ab. Eos, rem eveniet.</p>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-20 h-20 overflow-hidden border border-black rounded-xl sm:ml-8 sm:mt-8 flex">
+                    <img src="./img/gohan-glasses.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="w-full h-fit bg-gray-400 sm:mt-8 sm:mr-8 ">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam obcaecati animi iusto, magnam
+                        excepturi eius voluptatibus praesentium repellendus ullam, labore optio repudiandae quos
+                        delectus
+                        eaque natus ab. Eos, rem eveniet.</p>
+                </div>
+            </div>
+
+        </section>
 
     </main>
 
