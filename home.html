@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Wiki</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body class="bg-gray-800 text-white min-h-screen">
+
+    <header class="bg-gray-700 border-b border-gray-500 shadow-[0_0_16px_rgba(0,0,0,1)]">
+        <div class="max-w-[1200px] mx-auto px-6 py-5 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div class="flex items-center gap-4">
+                <a href="./index.html"
+                    class="rounded-2xl w-20 h-20 shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] flex items-center justify-center border border-gray-500 bg-gray-800"
+                    title="Volver al personaje" aria-label="Volver al personaje">
+                    <img src="img/mago.png" alt="Volver al personaje" class="w-16 h-16">
+                </a>
+                <div>
+                    <p class="uppercase tracking-[4px] text-amber-400 text-sm mb-2">Home</p>
+                    <h1 class="text-3xl font-bold">Wiki principal</h1>
+                </div>
+            </div>
+
+            <nav class="flex gap-3">
+                <a href="./index.html" class="px-4 py-2 rounded-xl border border-amber-400 bg-gray-800">Personaje</a>
+                <a href="./perfil.html" class="px-4 py-2 rounded-xl border border-sky-400 bg-gray-800">Perfil</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-[980px] mx-auto px-4 py-6 space-y-5">
+
+        <section
+            class="grid grid-cols-1 md:grid-cols-[0.9fr_1.1fr] gap-4 bg-gray-100 text-gray-800 border border-gray-300 rounded-md p-4 shadow-[0_0_16px_rgba(0,0,0,0.45)]">
+            <article class="rounded-md bg-white flex items-center justify-center min-h-[220px] border border-gray-200">
+                <img src="./img/mago.png" alt="Imagen principal de la wiki" class="w-52 md:w-64 object-contain">
+            </article>
+
+            <article class="space-y-3 flex flex-col justify-center">
+                <p class="text-xs text-gray-400 text-center">Welcome to the official...</p>
+                <h2 class="text-3xl font-semibold text-center">Wiki principal</h2>
+                <p class="text-gray-600 leading-8">
+                    Esta wiki sirve como punto de entrada para explorar personajes, lugares, historia y curiosidades del
+                    proyecto. Aqui el visitante puede entender rapidamente de que trata el universo y empezar a moverse
+                    entre las distintas secciones importantes.
+                </p>
+                <p class="text-gray-600 leading-8">
+                    La idea es reunir informacion visual, fichas, comentarios y novedades en un mismo lugar, de forma que
+                    navegar por la wiki sea claro, ordenado y agradable.
+                </p>
+            </article>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-3">
+            <article class="bg-white/80 text-gray-800 border border-gray-200 rounded-md p-6 shadow-[0_0_12px_rgba(0,0,0,0.15)]">
+                <h3 class="text-2xl font-medium mb-4 text-center">Gameplay</h3>
+                <ul class="space-y-2 text-[17px] text-blue-500">
+                    <li><a href="#" class="hover:underline">- Guia inicial</a></li>
+                    <li><a href="#" class="hover:underline">- Walkthrough</a></li>
+                    <li><a href="#" class="hover:underline">- Sistema de progreso</a></li>
+                    <li><a href="#" class="hover:underline">- Objetivos</a></li>
+                    <li><a href="#" class="hover:underline">- Preguntas frecuentes</a></li>
+                </ul>
+            </article>
+
+            <article class="bg-white/80 text-gray-800 border border-gray-200 rounded-md p-6 shadow-[0_0_12px_rgba(0,0,0,0.15)]">
+                <h3 class="text-2xl font-medium mb-4 text-center">Content</h3>
+                <ul class="space-y-2 text-[17px] text-blue-500">
+                    <li><a href="#" class="hover:underline">- Personajes</a></li>
+                    <li><a href="#" class="hover:underline">- Lugares</a></li>
+                    <li><a href="#" class="hover:underline">- Minijuegos</a></li>
+                    <li><a href="#" class="hover:underline">- Objetos</a></li>
+                    <li><a href="#" class="hover:underline">- Curiosidades</a></li>
+                </ul>
+            </article>
+
+            <article class="bg-white/80 text-gray-800 border border-gray-200 rounded-md p-6 shadow-[0_0_12px_rgba(0,0,0,0.15)]">
+                <h3 class="text-2xl font-medium mb-4 text-center">Community</h3>
+                <ul class="space-y-2 text-[17px] text-blue-500">
+                    <li><a href="#" class="hover:underline">- Stream del creador</a></li>
+                    <li><a href="#" class="hover:underline">- Herramientas</a></li>
+                    <li><a href="#" class="hover:underline">- Modding API</a></li>
+                    <li><a href="#" class="hover:underline">- Bugtracker</a></li>
+                    <li><a href="#" class="hover:underline">- Change log</a></li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <article class="bg-white/85 text-gray-800 border border-gray-200 rounded-md p-6 shadow-[0_0_12px_rgba(0,0,0,0.15)]">
+                <h3 class="text-2xl font-medium mb-4 text-center">SubscribeStar Posts & Updates</h3>
+                <ul class="space-y-2 text-[17px]">
+                    <li>- Abr 16, 2026: Nueva entrada del mago errante</li>
+                    <li>- Abr 12, 2026: Pack de ilustraciones del mes</li>
+                    <li>- Abr 08, 2026: Notas del desarrollador</li>
+                    <li>- Abr 03, 2026: Vista previa de personajes</li>
+                    <li>- Mar 29, 2026: Publicacion especial para seguidores</li>
+                </ul>
+            </article>
+
+            <article class="bg-white/85 text-gray-800 border border-gray-200 rounded-md p-6 shadow-[0_0_12px_rgba(0,0,0,0.15)]">
+                <h3 class="text-2xl font-medium mb-4 text-center">Team</h3>
+                <ul class="space-y-2 text-[17px]">
+                    <li>- Director creativo: narrativa, diseno y vision general</li>
+                    <li>- Ilustrador: personajes, escenas y material promocional</li>
+                    <li>- Editor de wiki: fichas, estructura y enlaces internos</li>
+                    <li>- Soporte web: mantenimiento de secciones y contenido</li>
+                    <li>- Comunidad: publicaciones y comunicacion con seguidores</li>
+                </ul>
+            </article>
+        </section>
+
+    </main>
+
+</body>
+
+</html>

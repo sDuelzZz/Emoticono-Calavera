@@ -12,14 +12,28 @@
 <body class="bg-gray-800">
 
     <header class="bg-gray-700 h-28 flex justify-between p-2 border-b border-gray-500">
-        <section
-            class="rounded-2xl w-20 shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] ml-8 flex items-center justify-center border border-gray-500">
-            <img src="img/mago.png" alt="" class="w-16 h-16">
-        </section>
-        <section class="border-2 solid border-sky-400 w-64 flex justify-between ">
-            <div class="border-2 solid border-amber-400 w-20 m-2"></div>
-            <div class="border-2 solid border-amber-400 w-20 m-2"></div>
-            <div class="border-2 solid border-amber-400 w-20 m-2"></div>
+        <a href="./home.html"
+            class="rounded-2xl w-20 shadow-[0px_0px_16px_0px_rgba(0,0,0,1)] ml-8 flex items-center justify-center border border-gray-500"
+            title="Ir a la home" aria-label="Ir a la home">
+            <img src="img/mago.png" alt="Ir a la home" class="w-16 h-16">
+        </a>
+        <section class="border-2 solid border-sky-400 w-64 flex justify-between">
+            <a href="./perfil.html"
+                class="border-2 solid border-amber-400 w-20 h-20 m-2 flex items-center justify-center bg-gray-800"
+                style="border-radius: 18px; box-shadow: 0 0 16px rgba(0, 0, 0, 1);"
+                aria-label="Ir al perfil" title="Abrir perfil">
+                <img src="./img/icono-perfiles.png" alt="Perfil principal" class="w-12 h-12">
+            </a>
+            <button type="button"
+                class="border-2 solid border-amber-400 w-20 h-20 m-2 flex items-center justify-center bg-gray-800"
+                style="border-radius: 18px; box-shadow: 0 0 16px rgba(0, 0, 0, 1);" aria-label="Perfil secundario">
+                <img src="./img/icono-perfiles.png" alt="Perfil secundario" class="w-12 h-12">
+            </button>
+            <button type="button"
+                class="border-2 solid border-amber-400 w-20 h-20 m-2 flex items-center justify-center bg-gray-800"
+                style="border-radius: 18px; box-shadow: 0 0 16px rgba(0, 0, 0, 1);" aria-label="Perfil invitado">
+                <img src="./img/icono-perfiles.png" alt="Perfil invitado" class="w-12 h-12">
+            </button>
         </section>
     </header>
 
